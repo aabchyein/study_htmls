@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Billding address</h3>
+    <form action="../index.html">
+        <div>
+            <label>First name <input type="text" name="firstname" value="Hyein" id="firstname" d></label>
+        </div>
+        <div>
+            <label>Last name <input type="text" name="lastname" value="Kim" id="lastname"></label>
+        </div>
+        <div>
+            <label>User name <input type="text" name="username" placeholder="Username" id="username"></label>
+        </div>
+        <div>
+            <label>Email (Optional) <input type="text" name="email" placeholder="you@example.com" id="email"></label>
+        </div>
+        <div>
+            <label>Address <input type="text" name="address" placeholder="1234 Main St" id="address"></label>
+        </div>
+        <div>
+            <label>Address 2 (Optional) <input type="text" name="address2" placeholder="Apartment or suite"
+                    id="address2"></label>
+        </div>
+        <div>
+            <label>Country
+                <select>
+                    <option value="" selected>Choose...</option>
+                    <option value="korea">Korea</option>
+                    <option value="france">France</option>
+                    <option value="denmark">Denmark</option>
+                    <option value="germany">Germany</option>
+                    <option value="spain">Spain</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>State
+                <select>
+                    <option value="" selected>Choose...</option>
+                    <option value="gyeonggido">Gyeonggi-do</option>
+                    <option value="jeollabukdo">Jeollabuk-do</option>
+                    <option value="chungcheonbukdo">Chungcheongbuk-do</option>
+                    <option value="gyeongsangnamdo">Gyeongsangnam-do</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>Zip <input type="text" name="zip" id="zip"></label>
+        </div>
+        <hr>
+        <div>
+            <label><input type="checkbox" name="shippingaddress"> Shipping address is the same as my billing
+                address</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="savethisinformation"> Save this information for next time</label>
+        </div>
+        <hr>
+        <div>
+            <h3>Payments</h3>
+        </div>
+        <div>
+            <label><input type="radio" name="payments" checked> Credit card</label>
+        </div>
+        <div>
+            <label><input type="radio" name="payments"> Debit card</label>
+        </div>
+        <label><input type="radio" name="payments"> Paypal</label>
+        </div>
+        <div>
+            <label>Name on card <input type="text" name="nameoncard" id="nameoncard"> Full name as displayed on
+                card</label>
+        </div>
+        <div>
+            <label>Credit card number <input type="text" name="creditcardnumber" id="creditcardnumber"></label>
+        </div>
+        <div>
+            <label>Expiration <input type="text" name="expiration" id="expiration"></label>
+        </div>
+        <div>
+            <label>CVV <input type="text" name="cvv" id="cvv"></label>
+        </div>
+        <hr>
+        <button type="submit">Continue to checkout</button>
+    </form>
+</body>
+
+</html>
